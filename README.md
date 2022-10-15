@@ -73,4 +73,3 @@ EasyPrefs.use().setSignedIn(isSignedIn); // to save signed in
 Getting introduction or Signed In values
 EasyPrefs.use().getIntroduction(); // get intro
 EasyPrefs.use().getSignedIn(); // get signed in value
- ```
