@@ -50,7 +50,7 @@ public class EasyPrefs {
 
     // this method is used to get the value of Introduction Activity or Onboarding Activity
     public boolean getIntroduction() {
-        return sharedPreferences.getBoolean("firstTimeOpen", true);
+        return sharedPreferences.getBoolean("firstTimeOpen", false);
     }
 
     // this method will put first run value to prefs.
@@ -62,7 +62,7 @@ public class EasyPrefs {
 
     // this method will check is user is signed in or not
     public boolean getSignedIn() {
-        return sharedPreferences.getBoolean("isSignedIn", true);
+        return sharedPreferences.getBoolean("isSignedIn", false);
     }
 
     // it will set user is signed in or not
