@@ -16,7 +16,7 @@ allprojects {
  Add the dependency in your app build.gradle
  ```
  dependencies {
- implementation 'com.github.snevatechnologies:EasyPrefs:1.0
+    implementation 'com.github.snevatechnologies:EasyPrefs:1.1'
    }
    ```
 You need to initialize the EasyPrefs library inside your application class :
